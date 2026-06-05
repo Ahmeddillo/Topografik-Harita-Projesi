@@ -1,5 +1,8 @@
 # 🛰️ Uydu Görüntüsünden Otomatik Topografik Harita Üretimi
 
+<img width="841" height="503" alt="Ekran görüntüsü 2026-06-04 223929" src="https://github.com/user-attachments/assets/f319f1a1-3025-4518-92cd-aa1e53026139" />
+
+
 Uydu fotoğraflarını yapay zeka ile analiz ederek 2D kontur haritası ve 3D arazi yüzeyi üreten bir Streamlit uygulaması.
 
 ---
@@ -73,16 +76,16 @@ Su bölgeleri tespit edildiğinde DEM'de sıfır yüksekliğe sabitlenir ve çev
 
 ## 📦 Bağımlılıklar
 
-- `streamlit` — Arayüz
-- `opencv-python` — Görüntü işleme
-- `torch` / `torchvision` — MiDaS modeli
-- `matplotlib` — Görselleştirme
-- `scipy` — Filtreler ve mesafe dönüşümü
-- `Pillow` — Görüntü dışa aktarımı
-- `rasterio` *(opsiyonel)* — GeoTIFF desteği
+- `streamlit`: Arayüz
+- `opencv-python`: Görüntü işleme
+- `torch` / `torchvision`: MiDaS modeli
+- `matplotlib`: Görselleştirme
+- `scipy`: Filtreler ve mesafe dönüşümü
+- `Pillow`: Görüntü dışa aktarımı
+- `rasterio`: *(opsiyonel)* — GeoTIFF desteği
 
 ---
 
 ## 📄 Lisans
 
-MIT
+Bu proje İşletmede Mesleki Eğitim amacıyla Ahmed Dillo tarafından gelişitirlmiştir.
